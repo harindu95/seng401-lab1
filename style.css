@@ -89,24 +89,20 @@ h1 {
 }
 
 .map{
-    positoin:relative;
+    position:relative;
 }
 .world-map{
     height:360px;
     width:720px;
 }
 
-area{
-    border:2px solid red;
-    /* border-radius: 50%; */
-}
 
 .hotspot{
     background-color: red;
     width:10px;
     height:10px;
     position:absolute;
-    top:1840px;
+    top:60px;
+    left:120px;
     border-radius:50%;
-    left: 760px;
 }
