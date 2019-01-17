@@ -1,0 +1,35 @@
+.cats {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: Monospace;
+    margin: 4 auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+body{
+    background-color: white;
+    color: grey;
+    width:800px;
+    margin: 0 auto;
+}
+
+.photo {
+    width: 80px;
+    height: 80xp;
+    float: left;
+}
+
+.about h2{
+    font-size: 40px;
+}
+
+.clearfix{
+    clear:both;
+}
