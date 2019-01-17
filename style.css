@@ -4,6 +4,11 @@
     display: inline-block;
     border: 5px solid white;
     border-radius: 50%;
+    padding-left: 20px;
+}
+
+.wallpaper{
+    margin: 0 auto;    
 }
 
 h1 {
@@ -26,6 +31,11 @@ body{
     float: left;
 }
 
+.about {
+    margin-top: 50px;
+    width: 80%;
+}
+
 .about h2{
     font-size: 40px;
 }
@@ -34,6 +44,26 @@ body{
     clear:both;
 }
 
-.contact input{
-    margin: 5px;
+.contact {
+    margin-top: 50px;
+}
+
+.contact div{
+    margin-bottom: 20px;
+}
+
+.nav-bar ul{
+    list-style:none; 
+    font-size: 20px;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.nav-bar li:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid orange;
 }
