@@ -3,8 +3,14 @@
     height: 350px;
     display: inline-block;
     border: 5px solid white;
-    border-radius: 50%;
+    border-radius: 10%;
     padding-left: 20px;
+}
+
+header {
+    background-image: url("https://cdn.csu.edu.au/__data/assets/image/0005/2783957/B_Computer_Science_banner_template_01.jpg");
+    color: white;
+    padding: 200px;
 }
 
 .wallpaper{
@@ -15,10 +21,10 @@ h1 {
     font-family: Monospace;
     margin: 4 auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
-body{
+.content{
     background-color: white;
     color: grey;
     width:800px;
@@ -46,9 +52,18 @@ body{
 
 .contact {
     margin-top: 50px;
+    /* padding-bottom: 300px; */
+    background-image: url("http://www.collab2.co.za/wp-content/uploads/2017/06/contact-us-background.jpg");
+    padding: 40px;
+}
+
+.contact .content{
+    padding: 40px;
+    /* width: 60%; */
 }
 
 .contact div{
+    margin-top: 5px;
     margin-bottom: 20px;
 }
 
@@ -63,7 +78,35 @@ body{
     margin-left: 20px;
 }
 
+.nav-bar a{
+    text-decoration:none;
+    color: grey;
+}
+
 .nav-bar li:hover{
     padding-bottom: 8px;
     border-bottom: 2px solid orange;
+}
+
+.map{
+    positoin:relative;
+}
+.world-map{
+    height:360px;
+    width:720px;
+}
+
+area{
+    border:2px solid red;
+    /* border-radius: 50%; */
+}
+
+.hotspot{
+    background-color: red;
+    width:10px;
+    height:10px;
+    position:absolute;
+    top:1840px;
+    border-radius:50%;
+    left: 760px;
 }

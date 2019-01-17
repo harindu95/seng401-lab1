@@ -14,20 +14,16 @@
                     <a href="#contact"> <li class="nav-contact">Contact</li> </a>
             </ul>
         </nav>
+        <header>
         <h1> SENG 401 </h1>
         <h1> Software Architecture </h1>
         <div class="wallpaper">
-            
-        <img class="cats" src="https://news.nationalgeographic.com/content/dam/news/photos/000/755/75552.jpg" width="800px" />
-
-        <img class="cats" src="https://cdn1.medicalnewstoday.com/content/images/articles/321/321282/a-gray-and-white-cat.jpg" />
-
-        <!-- <img class="cats" src="https://www.animalfriends.co.uk/app/uploads/2016/10/27163820/iStock_86086153_MEDIUM1-e1477582806563.jpg" /> -->
-
-        <!-- <img class="cats" src="https://static1.squarespace.com/static/5a2c764af43b551b489c752d/t/5a7a8ffc53450a72ddb8cf7d/1529599795099/javacats03Feb20180094.jpg?format=500w" /> -->
-
         </div>
-        <section class="about">
+        </header>
+
+        <div class="content">
+            
+        <section class="about" id="about">
 
             <h2> About us </h2>
             <div class="member clearfix">
@@ -70,8 +66,11 @@
                                 </div>
 
         </section>
+        </div>
 
-        <section class="contact clearfix">
+        <section class="contact clearfix" id="contact">
+            <div class="content">
+                
             <h2>  Contact Us </h2>
             Send us a message. We would love to hear from you!  
             <form>
@@ -94,7 +93,19 @@
                 </div>
                 <input type="submit" value="Submit" />
             </form>
+            <div class="map">
+                <img class="world-map" alt="world map" src="https://d2l.ucalgary.ca/content/enforced/248901-W2019SENG401L01/WorldMap.png?d2lSessionVal=SncFoA4Zme2idKwuN0xyrPO3f&ou=248901" usemap="#calgary-map" /> 
+                <map name="calgary-map">
+                    <<area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                </map>
+                <div class="hotspot"> </div>
+                </div> 
+
+            </div>
         </section>
+
+    
     </body>
 
 </html>
