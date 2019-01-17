@@ -33,3 +33,7 @@ body{
 .clearfix{
     clear:both;
 }
+
+.contact input{
+    margin: 5px;
+}
